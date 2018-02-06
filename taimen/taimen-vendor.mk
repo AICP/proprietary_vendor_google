@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Tycho \
+    EaselServicePrebuilt \
     VZWAPNLib \
     ims \
     vzw_msdc_api \
