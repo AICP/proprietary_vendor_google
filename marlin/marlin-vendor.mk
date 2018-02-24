@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/obdm_permissions.xml:system/etc/permissions/obdm_permissions.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-marlin.xml:system/etc/permissions/privapp-permissions-marlin.xml \
+    vendor/google/marlin/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
     vendor/google/marlin/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/google/marlin/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/google/marlin/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -47,6 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/google/marlin/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so \
     vendor/google/marlin/proprietary/priv-app/embms/oem/config_params.xml:system/priv-app/embms/oem/config_params.xml \
     vendor/google/marlin/proprietary/priv-app/embms/oem/provisioning_params.xml:system/priv-app/embms/oem/provisioning_params.xml \
     vendor/google/marlin/proprietary/priv-app/embms/oem/verizon_config_params.txt:system/priv-app/embms/oem/verizon_config_params.txt
@@ -65,6 +68,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9335 \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
+    MyVerizonServices \
     OBDM_Permissions \
     OemDmTrigger \
     QAS_DVC_MSP \
