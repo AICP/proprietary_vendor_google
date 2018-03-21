@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
+    com.google.android.camera.experimental2017 \
     embmslibrary \
     rcsimssettings \
     vendor.qti.qcril.am-V1.0-java
